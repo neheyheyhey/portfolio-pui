@@ -1,6 +1,40 @@
+body {
+    margin: 100px;
+    padding: 0px;
+  
+    /* Set the default font family and font color for our application. */
+    font-family: 'Figtree';
+    color: black;
+  
+    /* Set the background color*/
+    background-color: white;
+  }
+h1 { 
+    font-size: 51.65px;
+}
+p {
+    font-size: 32.74px;
+    font-weight: lighter;
+}
+.menu {
+    display: flex; 
+}
+.intro_link {
+    display: flex;
+    color:#800020;
+}
+.aboutMe_resume {
+    margin-left: 60%;
+}
 .linkedinredesign_thumbnail {
     width: 305px;
 }
 .linkedinRedesign {
     display:flex;
+}
+.projectTitle{ 
+    margin-left: 10%;
+}
+.project-name { 
+    font-weight: lighter;
 }
