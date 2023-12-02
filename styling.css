@@ -1,6 +1,6 @@
 body {
-    margin: 100px;
     padding: 0px;
+    margin: 100px;
   
     /* Set the default font family and font color for our application. */
     font-family: 'Figtree';
@@ -18,16 +18,35 @@ p {
 }
 .menu {
     display: flex; 
+    justify-content:space-between;
+}
+.abt {
+    margin-right: 40px;
+}
+.menu-right {
+    display: flex; 
+    align-content: space-between;
+}
+.logo { 
+    max-width: auto; 
+    height: 25px;
+    margin-top: 40px;
+}
+main {
+    margin-top: 100px;
 }
 .intro_link {
     display: flex;
     color:#800020;
+    margin-bottom: 100px;
 }
 .aboutMe_resume {
     margin-left: 60%;
 }
+
 .linkedinredesign_thumbnail {
-    width: 305px;
+    width: auto;
+    height: 427px; 
 }
 .linkedinRedesign {
     display:flex;
@@ -37,4 +56,8 @@ p {
 }
 .project-name { 
     font-weight: lighter;
+}
+.footer{
+    display: flex;
+    justify-content:space-between; 
 }
