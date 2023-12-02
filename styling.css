@@ -20,17 +20,25 @@ p {
     display: flex; 
     justify-content:space-between;
 }
-.abt {
-    margin-right: 40px;
-}
 .menu-right {
     display: flex; 
     align-content: space-between;
 }
+.abt {
+    margin-right: 40px;
+    margin-top:0;
+}
+.resea {
+    margin-top:0;
+}
+.menuitem { 
+    text-decoration: none;
+    color: #800020;
+    border-color: black;
+}
 .logo { 
     max-width: auto; 
     height: 25px;
-    margin-top: 40px;
 }
 main {
     margin-top: 100px;
@@ -42,14 +50,19 @@ main {
 }
 .aboutMe_resume {
     margin-left: 60%;
+    color:#800020;
 }
-
-.linkedinredesign_thumbnail {
-    width: auto;
-    height: 427px; 
+.aboutMe_linkedin {
+    color:#800020;
 }
+/*-----------------------*/
 .linkedinRedesign {
     display:flex;
+    margin-top: 50px;
+}
+.project_thumbnail {
+    width: auto;
+    height: 427px; 
 }
 .projectTitle{ 
     margin-left: 10%;
@@ -57,7 +70,29 @@ main {
 .project-name { 
     font-weight: lighter;
 }
+/*-----------------------*/
+.vmtTool{
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-top: 50px; 
+}
+.projectTitle2{ 
+    margin-right: 10%;
+}
+.projectLink{
+    margin-top: 300px; 
+    color: #800020;
+}
+/*-----------------------*/
 .footer{
     display: flex;
     justify-content:space-between; 
+    margin-top: 50px;
 }
+.credits-right { 
+    color: black;
+}
+.credits { 
+    color: black;
+}
+
