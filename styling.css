@@ -12,6 +12,9 @@ body {
 h1 { 
     font-size: 51.65px;
 }
+#typed {
+    color: #800020; 
+}
 p {
     font-size: 32.74px;
     font-weight: lighter;
